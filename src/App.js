@@ -39,6 +39,8 @@ const App = () => {
 					appendToValue='°'
 					valueFontSize='4rem'
 					trackColor="#eeeeee"
+					trackDraggable={true}
+					labelValue={10}
 					progressColorFrom={isDragging ? "#F0A367" : "#00bfbd"}
           			progressColorTo={isDragging ? "#F65749" : "#009c9a"}
 					labelColor={isDragging ? "#F0A367" : "#00bfbd"}

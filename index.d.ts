@@ -19,6 +19,7 @@ declare module '@fseehawer/react-circular-slider' {
     valueFontSize?: string;
     appendToValue?: string;
     renderLabelValue?: any;
+    labelValue?: any;
     prependToValue?: string;
     verticalOffset?: string;
     hideLabelValue?: boolean;

@@ -1,4 +1,5 @@
 # react-circular-slider
+Forked from [here](https://fseehawer.github.io/react-circular-slider/)
 
 ![](https://img.shields.io/badge/version-2.5.16-green.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -9,14 +10,14 @@ A highly customizable circular slider with no dependencies. See some [live demos
 ## install
 
 ```
-npm install @fseehawer/react-circular-slider
+npm install @jhoward1994/react-circular-slider
 ```
 
 ## example
 
 ```javascript
 import React from 'react';
-import CircularSlider from '@fseehawer/react-circular-slider';
+import CircularSlider from '@jhoward1994/react-circular-slider';
 
 const App = () => {
     return (
@@ -33,7 +34,7 @@ Use min and max props to define the range of numbers. Use prependToValue/appendT
 
 ```javascript
 import React from 'react';
-import CircularSlider from '@fseehawer/react-circular-slider';
+import CircularSlider from '@jhoward1994/react-circular-slider';
 
 const App = () => {
     return (
@@ -79,6 +80,7 @@ valueFontSize        | string | 4rem          | label value font-size
 appendToValue        | string | ''            | append character to value
 prependToValue       | string | ''            | prepend character to value
 renderLabelValue     | jsx    | null          | add custom jsx code for the labels and styles
+renderLabelValue     | string | null          | render this value for the slider label
 verticalOffset       | string | 2rem          | vertical offset of the label and value
 hideLabelValue       | boolean| false         | hide label and value
 progressColorFrom    | string | #80C3F3       | progress track gradient start color

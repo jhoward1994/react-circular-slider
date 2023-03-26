@@ -75,6 +75,7 @@ const CircularSlider = ({
         dataIndex = 0,
         progressLineCap = 'round',
         renderLabelValue = null,
+        labelValue = null,
         children,
         onChange = value => {},
         isDragging = value => {},
@@ -272,7 +273,7 @@ const CircularSlider = ({
                     appendToValue={appendToValue}
                     prependToValue={prependToValue}
                     hideLabelValue={hideLabelValue}
-                    value={`${state.label}`}
+                    value={labelValue ? `${labelValue}` : `${state.label}`}
                 />
             )}
         </div>
