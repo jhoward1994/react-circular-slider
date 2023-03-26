@@ -273,7 +273,7 @@ const CircularSlider = ({
                     appendToValue={appendToValue}
                     prependToValue={prependToValue}
                     hideLabelValue={hideLabelValue}
-                    value={labelValue ? `${labelValue}` : `${state.label}`}
+                    value={labelValue !== null ? `${labelValue}` : `${state.label}`}
                 />
             )}
         </div>
